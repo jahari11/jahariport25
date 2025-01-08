@@ -1,9 +1,10 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-
 import { loadFull } from "tsparticles";
+
 export default function Particle() {
   const [init, setInit] = useState(false);
+
   useEffect(() => {
     console.log("init");
     initParticlesEngine(async (engine) => {
@@ -13,8 +14,7 @@ export default function Particle() {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
-  };
+  const particlesLoaded = (container) => {};
 
   return (
     <>
@@ -51,14 +51,10 @@ export default function Particle() {
             },
             particles: {
               color: {
-                value: "#bae6fd",
+                value: "#fff", // Dots are white
               },
               links: {
-                color: "#e0f2fe",
-                distance: 150,
-                enable: true,
-                opacity: 0.5,
-                width: 1,
+                enable: false, // Disable connecting lines for a cleaner look
               },
               move: {
                 direction: "none",
@@ -66,8 +62,8 @@ export default function Particle() {
                 outModes: {
                   default: "bounce",
                 },
-                random: false,
-                speed: 1.2,
+                random: true, // Dots move randomly
+                speed: 0.5, // Slow movement for a subtle effect
                 straight: false,
               },
               number: {
@@ -75,16 +71,16 @@ export default function Particle() {
                   enable: true,
                   area: 800,
                 },
-                value: 160,
+                value: 200, // Number of dots
               },
               opacity: {
-                value: 0.5,
+                value: { min: 0.4, max: 1 }, // Dots with slight transparency
               },
               shape: {
-                type: "circle",
+                type: "circle", // Circle shapes for dots
               },
               size: {
-                value: { min: 1, max: 5 },
+                value: { min: 1, max: 2 }, // Small dot sizes
               },
             },
             detectRetina: true,

@@ -30,7 +30,7 @@ const Projects = () => {
 
   return (
     <div className=" px-6 bg-[#0F0F0F]">
-      <h2 className="font-bold mb-6 text-center text-white tracking-tighter text-8xl">
+      <h2 className="font-bold mb-12 text-center text-white tracking-tighter text-6xl md:text-8xl">
         Here are some projects I've worked on.
       </h2>
       <div className="space-y-12">
@@ -38,8 +38,8 @@ const Projects = () => {
           <div key={index} className="flex items-center space-x-12">
             {/* Project Text Section */}
             <div className="w-1/2 text-white">
-              <h3 className="text-6xl tracking-tighter font-semibold mb-4">{project.name}</h3>
-              <p className="text-lg">{project.description}</p>
+              <h3 className="text-3xl md:text-6xl tracking-tighter font-semibold mb-4">{project.name}</h3>
+              <p className=" text-sm md:text-xl">{project.description}</p>
             </div>
 
             {/* Project Image Section */}

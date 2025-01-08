@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Import GitHub and LinkedIn icons
 
 const Footer = () => {
   return (
@@ -19,14 +20,22 @@ const Footer = () => {
           </div>
           <div>
             <p className="text-xl font-semibold tracking-tighter">Connect with me</p>
-            <ul>
-              <li>
-                <a href="https://github.com/jahari11" className="text-white hover:text-gray-400">
-                  Github
+            <ul className="space-y-2 ">
+              <li className="flex items-center space-x-2 justify-center">
+                <FaGithub size={20} />
+                <a
+                  href="https://github.com/jahari11"
+                  className="text-white hover:text-gray-400"
+                >
+                  GitHub
                 </a>
               </li>
-              <li>
-                <a href="https://www.linkedin.com/in/jahari-crawford-young-b11564165/" className="text-white hover:text-gray-400">
+              <li className="flex items-center space-x-2 justify-center">
+                <FaLinkedin size={20} />
+                <a
+                  href="https://www.linkedin.com/in/jahari-crawford-young-b11564165/"
+                  className="text-white hover:text-gray-400"
+                >
                   LinkedIn
                 </a>
               </li>
@@ -39,4 +48,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
