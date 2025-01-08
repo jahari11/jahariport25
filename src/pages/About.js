@@ -29,11 +29,8 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-[#0F0F0F] p-8">
-      <motion.div
+      <div
         className="flex flex-col flex-grow"
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
       >
         <h3 className="text-6xl md:text-8xl font-bold mb- text-white tracking-tighter">
           About Me...
@@ -74,7 +71,7 @@ const About = () => {
             ))}
           </ul>
         </div>
-      </motion.div>
+ </div>
     </div>
   );
 };

@@ -26,11 +26,9 @@ function App() {
           <Hero />
         </section>
       </ScrollReveal>
-      <ScrollReveal>
         <section id="about">
           <About />
         </section>
-      </ScrollReveal>
       <section id="projects">
         <Projects />
       </section>
