@@ -5,26 +5,26 @@ const Projects = () => {
     {
       link: '//ingeniousdealers-one.vercel.app',
       name: 'Ingenious Dealers',
-      image: 'https://i.imgur.com/wfACPFG.jpeg', // Replace with your image URL
-      description: 'A platform for ingenious dealers to manage their inventory and sales.',
+      image: 'https://i.imgur.com/wfACPFG.jpeg', 
+      description: 'A dynamic on-demand service platform tailored for streetwear enthusiasts and creative professionals like models, photographers, designers, and more.',
     },
     {
       link: '//youth-life-support.vercel.app',
       name: 'Youth Life Support',
-      image: 'https://i.imgur.com/psstpii.jpeg', // Replace with your image URL
+      image: 'https://i.imgur.com/psstpii.jpeg',
       description: 'A non-profit organization that supports youth with life skills and counseling.',
     },
     {
-      link: '//playdeadshopify.vercel.app',
-      name: 'Playdead Shop',
-      image: 'https://i.imgur.com/djXguZ7.jpeg', // Replace with your image URL
-      description: 'An e-commerce site selling gaming merchandise and accessories.',
+      link: 'https://myphoenixproject.com',
+      name: 'Phoenix Project',
+      image: 'https://i.imgur.com/YbXMqbd.png', 
+      description: 'A digital solutions business specializing in digital marketing, web development, and more.',
     },
     {
       link: 'https://ingeniousdealer.com',
       name: 'Ingenious Dealer',
-      image: 'https://i.imgur.com/1iSIhbL.jpeg', // Replace with your image URL
-      description: 'A marketplace for unique and hard-to-find products from dealers around the world.',
+      image: 'https://i.imgur.com/1iSIhbL.jpeg',
+      description: 'The official ecommerce store of Ingenious Dealers.',
     },
   ];
 
