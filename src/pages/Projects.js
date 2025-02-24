@@ -9,7 +9,7 @@ const Projects = () => {
       description: 'A dynamic on-demand service platform tailored for streetwear enthusiasts and creative professionals like models, photographers, designers, and more.',
     },
     {
-      link: '//youth-life-support.vercel.app',
+      link: 'https://ylsninc.org',
       name: 'Youth Life Support',
       image: 'https://i.imgur.com/psstpii.jpeg',
       description: 'A non-profit organization that supports youth with life skills and counseling.',
